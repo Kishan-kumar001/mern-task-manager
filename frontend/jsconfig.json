@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./", // Sets the base directory for module resolution
+    "paths": {
+      "@/*": ["src/*"] // Alias '@/' to the 'src' folder
+    },
+    "jsx": "react-jsx", // Ensures compatibility with React's JSX transform
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "allowSyntheticDefaultImports": true, // Allows default imports from modules without default exports
+    "esModuleInterop": true // Ensures compatibility between CommonJS and ES modules
+  },
+  "include": ["src"] // Includes the 'src' directory for the project files
+}
